@@ -1,0 +1,169 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/*----REM HACK----*/
+html { font-size: 62.5%; }
+
+/*-----BASE STYLES-----*/
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+  }
+
+/*------HEADER-------*/
+
+header {
+  color: #4213FF;
+  background: #FE5EE4;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 142rem;
+  margin: 0 auto;
+  padding: 4.5rem 0;
+}
+
+nav > p {
+  font-size: 1.4rem;
+  font-weight: 700;
+  width: 18rem;
+}
+nav > p:nth-child(3) {
+  width: 12rem;
+}
+nav > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+div > a:last-child {
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: 1.5px solid #4213FF;
+  border-radius: 5rem;
+  background: transparent;
+  padding: 1.25rem 1.75rem;
+  transition: all .4s ease-in-out;
+}
+
+div > a:last-child:hover {
+  color: #FE5EE4;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: 1.5px solid #4213FF;
+  border-radius: 5rem;
+  background: #4213FF;
+  padding: 1.25rem 1.75rem;
+}
+
+main {
+  max-width: 142rem;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: 'Space Mono', monospace;
+  font-size: 12.8rem;
+  text-transform: uppercase;
+}
+
+h1, h2, main > p {
+  position: relative;
+  z-index: 999;
+}
+
+main > p {
+  font-family: 'Space Mono', monospace;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+main > div:last-child {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-align: end;
+}
+
+main h2, .arrow {
+  padding: 0 0 6rem;
+}
+
+.profile_photo {
+  position: relative;
+  z-index: 9999;
+}
+
+.glimpse {
+  position: absolute;
+  top: 300px;
+  right: 240px;
+}
+
+.ellipses {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 600;
+  clip: 100%;
+}
+
+
+.hero_rectangle {
+  position: absolute;
+  width: 530.24px;
+  height: 278.96px;
+  top: 460.88px;
+  background: rgba(239, 194, 239, 0.49);
+  border-radius: 40px;
+  z-index: 500;
+}
+
+main > img {
+  position: absolute;
+}
+
+
+/*------NAV_HERO-------*/
+
+
+
+
+
+/*------HERO-------*/
+
+
+
+/*------SECTION-------*/
+
