@@ -267,3 +267,6 @@ main h2, .arrow {
 main > img {
   position: absolute;
 }
+
+.animate__animated.animate__fadeInUp {
+  --animate-duration: 1s;
