@@ -201,11 +201,6 @@ div > a:last-child:hover {
     transform: translate(0, 0) rotate(0); }
   }
 
-
-
-
-
-
 main {
   max-width: 142rem;
   margin: 0 auto;
@@ -226,6 +221,7 @@ main > p {
   font-family: 'Space Mono', monospace;
   font-size: 1.4rem;
   font-weight: 400;
+  margin: 1rem;
 }
 
 main > div:last-child {
