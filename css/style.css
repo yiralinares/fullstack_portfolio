@@ -211,11 +211,16 @@ main {
 
 h1, h2 {
   font-family: 'CabinetGrotesk-Variable', sans-serif;
+  position: relative;
 }
 
 h1 {
   font-size: 12.8rem;
   font-weight: 700;
+  top: 6rem;
+}
+.profession {
+  top: 6rem
 }
 
 h2 {
