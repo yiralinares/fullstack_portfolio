@@ -239,7 +239,7 @@ main > div:last-child {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  text-align: end;
+  text-align: right;
 }
 
 main h2, .arrow {
