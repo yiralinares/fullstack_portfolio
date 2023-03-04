@@ -42,6 +42,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
 }
 
 nav {
@@ -262,7 +263,7 @@ main h2, .arrow {
   top: 0px;
   left: 0px;
   z-index: 600;
-  clip: 100%;
+  clip: fill-box;
 }
 
 .hero_rectangle {
