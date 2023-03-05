@@ -90,12 +90,12 @@ div > a:last-child:hover {
   padding: 1.25rem 1.75rem;
 }
 
-.social_animation {
+.social_btn {
   transition: .4s ease all;
   pointer-events: all;
 }
 
-.social_animation:hover {
+.social_btn:hover {
   animation-name: shiver;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -295,4 +295,66 @@ main > img {
 
 .animate__animated.animate__fadeInUp {
   --animate-duration: 1s;
+}
+
+@media only screen and (max-width: 500px) { 
+  .block {
+    display: block;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .inline {
+    display: inline;
+  }
+
+  /*Change order of flex-items*/
+  nav > img {
+    order: 1;
+    margin: 0 0 4rem;
+  }
+  nav > p:nth-child(2) {
+    order: 3;
+  }
+  nav > p:nth-child(3) {
+    order: 4;
+  }
+  nav > div {
+    order: 2;
+    margin: 0 0 4rem;
+  }
+  nav {
+    flex-wrap: wrap;
+    width: calc(100% - 4rem);
+    align-items: start;
+  }
+
+  nav > div {
+    gap: .85rem;
+  }
+
+  main {
+    width: calc(100% - 4rem);
+  }
+
+  h1 {
+    font-size: 7.4rem;
+    top: 0;
+  }
+
+  .profession {
+    font-size: 6rem;
+    line-height: 5rem;
+    top: 0;
+  }
+
+  main > div:last-child {
+    align-items: start;
+  }
+
+  .profile_photo {
+  }
+
 }
